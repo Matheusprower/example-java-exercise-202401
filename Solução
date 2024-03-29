@@ -1,0 +1,93 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    double t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12;
+		System.out.println("Digite a temperatura 1 (de 4 a 10 graus): ");
+		t1 = sc.nextDouble();
+        while (!(t1 >= 4 && t1 <= 10)) {
+		    System.out.println("Digite o valor correto da primeira temperatura");
+		    t1 = sc.nextDouble();
+		}
+		System.out.println("O valor da primeira temperatura é: " + t1);
+		System.out.println("Digite a temperatura 2 (de 4 a 10 graus): ");
+		t2 = sc.nextDouble();
+        while (!(t2 >= 4 && t2 <= 10)) {
+		    System.out.println("Digite o valor correto da segunda temperatura");
+		    t2 = sc.nextDouble();
+		}
+		System.out.println("O valor da segunda temperatura é: " + t2);
+		System.out.println("Digite a temperatura 3 (de 4 a 10 graus): ");
+		t3 = sc.nextDouble();
+        while (!(t3 >= 4 && t3 <= 10)) {
+		    System.out.println("Digite o valor correto da terceira temperatura");
+		    t3 = sc.nextDouble();
+		}
+		System.out.println("O valor da terceira temperatura é: " + t3);
+		System.out.println("Digite a temperatura 4 (de 4 a 10 graus): ");
+		t4 = sc.nextDouble();
+        while (!(t4 >= 4 && t4 <= 10)) {
+		    System.out.println("Digite o valor correto da quarta temperatura");
+		    t4 = sc.nextDouble();
+		}
+		System.out.println("O valor da quarta temperatura é: " + t4);
+		System.out.println("Digite a temperatura 5 (de 4 a 10 graus): ");
+		t5 = sc.nextDouble();
+        while (!(t5 >= 4 && t5 <= 10)) {
+		    System.out.println("Digite o valor correto da quinta temperatura");
+		    t5 = sc.nextDouble();
+		}
+		System.out.println("O valor da quinta temperatura é: " + t5);
+		System.out.println("Digite a temperatura 6 (de 4 a 10 graus): ");
+		t6 = sc.nextDouble();
+        while (!(t6 >= 4 && t6 <= 10)) {
+		    System.out.println("Digite o valor correto da sexta temperatura");
+		    t6 = sc.nextDouble();
+		}
+		System.out.println("O valor da sexta temperatura é: " + t6);
+		System.out.println("Digite a temperatura 7 (de 4 a 10 graus): ");
+		t7 = sc.nextDouble();
+        while (!(t7 >= 4 && t7 <= 10)) {
+		    System.out.println("Digite o valor correto da sétima temperatura");
+		    t7 = sc.nextDouble();
+		}
+		System.out.println("O valor da sétima temperatura é: " + t7);
+		System.out.println("Digite a temperatura 8 (de 4 a 10 graus): ");
+		t8 = sc.nextDouble();
+        while (!(t8 >= 4 && t8 <= 10)) {
+		    System.out.println("Digite o valor correto da oitava temperatura");
+		    t8 = sc.nextDouble();
+		}
+		System.out.println("O valor da oitava temperatura é: " + t8);
+		System.out.println("Digite a temperatura 9 (de 4 a 10 graus): ");
+		t9 = sc.nextDouble();
+        while (!(t2 >= 4 && t2 <= 10)) {
+		    System.out.println("Digite o valor correto da nona temperatura");
+		    t9 = sc.nextDouble();
+		}
+		System.out.println("O valor da nona temperatura é: " + t9);
+		System.out.println("Digite a temperatura 10 (de 4 a 10 graus): ");
+		t10 = sc.nextDouble();
+        while (!(t2 >= 4 && t2 <= 10)) {
+		    System.out.println("Digite o valor correto da decima temperatura");
+		    t10 = sc.nextDouble();
+		}
+		System.out.println("O valor da decima temperatura é: " + t10);
+		System.out.println("Digite a temperatura 11 (de 4 a 10 graus): ");
+		t11 = sc.nextDouble();
+        while (!(t2 >= 4 && t2 <= 10)) {
+		    System.out.println("Digite o valor correto da decima primeira temperatura");
+		    t11 = sc.nextDouble();
+		}
+		System.out.println("O valor da decima primeira temperatura é: " + t11);
+		System.out.println("Digite a temperatura 12 (de 4 a 10 graus): ");
+		t12 = sc.nextDouble();
+        while (!(t12 >= 4 && t12 <= 10)) {
+		    System.out.println("Digite o valor correto da decima segunda temperatura");
+		    t12 = sc.nextDouble();
+		}
+		System.out.println("O valor da decima segunda temperatura é: " + t1);
+		System.out.println("A média total de temperaturas do dia é: " + (t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12)/12 + "°");
+	}
+}
